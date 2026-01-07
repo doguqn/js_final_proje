@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hava Durumu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="box">
+    <h1>Hava Durumu</h1>
+    <p>Api Verileri İle Hava Durumu</p>
+</header>
+
+<div class="box">
+    <h3>ARAMA / FİLTRE</h3>
+    <input type="text" id="cityInput" placeholder="Arama...">
+    <button id="searchBtn">Ara / Listele</button>
+</div>
+
+<div class="box status">
+    <span id="loading">Yükleniyor...</span>
+    <span id="error">API Hatası</span>
+</div>
+
+<div class="box">
+    <h3>KART LİSTESİ</h3>
+    <div id="cardList" class="card-list"></div>
+</div>
+
+<div class="box" id="detailPanel">
+    <h3>KART DETAY BAŞLIĞI</h3>
+    <div id="detailContent"></div>
+    <button id="closeDetail">Geri / Kapat</button>
+</div>
+
+<div class="box">
+    <h3>HAKKIMIZDA</h3>
+    <p>Bu Proje JavaScript Final Projesidir OpenWeather APİ Kullanılarak Oluşturulmuştur.</p>
+</div>
+
+<div class="box">
+    <h3>İLETİŞİM</h3>
+    <p>E-Posta: doguqn77@email.com</p>
+    <a href="https://github.com/kullaniciadi">GitHub</a>
+</div>
+
+<footer>
+    © 2026 - Tüm hakları saklıdır
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
